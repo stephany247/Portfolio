@@ -18,6 +18,7 @@ h2, h3 {
   font-style: normal;
 }
 
+/* NAVBAR */
 header {
   position: relative;
 }
@@ -50,21 +51,20 @@ header {
 li {
  list-style: none;
 }
-
 a {
   text-decoration: none;
   color: #98e8cd;
   font-size: 4rem;
   cursor: pointer;
   transition: scale .2 ease;
- }
- a:hover {
-   list-style: square;
-   scale: 1.05;
- }
-  a:active {
-    scale: 0.95;
-  }
+}
+a:hover {
+  list-style: square;
+  scale: 1.05;
+}
+ a:active {
+  scale: 0.95;
+}
 
 /* DROPDOWN MENU */
 .dropdown-menu {
@@ -90,6 +90,64 @@ a {
   justify-content: right;
 }
 
+.top-container{
+  margin: 4rem 6rem;
+  display: flex;
+  align-items: center;
+}
+.intro h1 {
+  font-size: 1.7rem;
+}
+
+.intro h3 {
+  font-size: 2rem;
+  font-family: "Roboto Mono", monospace;
+  margin-top: 10px;
+  display: flex;
+  float: left;
+}
+.name {
+  color: #98e8cd;
+}
+
+.top-link {
+  margin-top: 8rem;
+  display: inline-block;
+  padding: 4px 30px; 
+  border: 1px solid #98e8cd; 
+  color: white; 
+  background-color: transparent;
+  border-radius: 2rem;
+  font-size: 1rem;
+}
+
+.top-link p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.about-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 2rem;
+  padding: 1rem;
+  margin: 2rem 7rem;
+}
+
+.about-paragraph {
+  text-align: left;
+  /* margin: 0 5rem; */
+  line-height: 2rem;
+}
+
+.about-paragraph h2 {
+  margin-bottom: 2rem;
+  color: #98e8cd; 
+  font-size: 2.5rem;
+}
+
+
 /* RESPONSIVENESS */
 @media(max-width: 992px){
   .navbar .links,
@@ -109,11 +167,4 @@ a {
       left: 2rem;
       width: unset;
   }
-}
-
-.top-container{
-  margin: 8rem 6rem;
-}
-.name {
-  color: #98e8cd;
 }
