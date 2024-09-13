@@ -16,6 +16,8 @@ h1 {
 h2, h3 {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
+  color: #98e8cd;
+  font-size: 2.5rem;
 }
 
 /* NAVBAR */
@@ -91,7 +93,7 @@ a:hover {
 }
 
 .top-container{
-  margin: 4rem 6rem;
+  margin: 6rem;
   display: flex;
   align-items: center;
 }
@@ -105,6 +107,7 @@ a:hover {
   margin-top: 10px;
   display: flex;
   float: left;
+  color: #fff;
 }
 .name {
   color: #98e8cd;
@@ -131,8 +134,7 @@ a:hover {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
   gap: 2rem;
-  padding: 1rem;
-  margin: 2rem 7rem;
+  margin: 4rem 6rem;
 }
 
 .about-paragraph {
@@ -147,6 +149,55 @@ a:hover {
   font-size: 2.5rem;
 }
 
+footer {
+  margin: 8rem 6rem 1rem;
+}
+#contact {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin: 8rem 3rem 2rem 0;
+  
+}
+
+#contact p {
+  font-size: 1.5rem;
+  color: #98e8cd;
+}
+
+#contact i {
+  font-size: 1.3rem;
+  margin: 20px 12px;
+}
+
+
+
+.email {
+  font-size: inherit;
+  padding: 6rem auto;
+}
+
+
+.email a{
+  color: #fff;
+  font-size: inherit;
+  display: block;
+  padding: 10px 0;
+}
+
+hr {
+  border-top: 1px solid #fff;
+  opacity: 0.3;
+}
+
+.copyright {
+  text-align: right;
+  padding: 0;
+}
+
+.copyright-symbol {
+  font-size: 1.5rem;
+}
 
 /* RESPONSIVENESS */
 @media(max-width: 992px){

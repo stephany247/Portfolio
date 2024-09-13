@@ -10,3 +10,5 @@ toggleBtn.onclick = function () {
     ? 'fa-solid fa-xmark'
     : 'fa-solid fa-bars-staggered'
 }
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
